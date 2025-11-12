@@ -14,3 +14,25 @@
 @import url('./header.css');
 
 @import url('./back-link.css');
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 72px) / 3);
+  box-sizing: border-box;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
